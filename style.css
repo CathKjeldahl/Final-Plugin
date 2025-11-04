@@ -71,6 +71,10 @@
     cursor: pointer;
     font-size: 18px;
     color: #BD3001;
+    
+}
+.bellis-close-button:hover {
+    color: #76250A;
 }
 
 /* Start-position (skjult over toppen) */
