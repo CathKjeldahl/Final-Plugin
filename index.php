@@ -27,6 +27,7 @@ add_action('wp_enqueue_scripts', 'bellis_enqueue_scripts');
 
 // Shortcode: [bellis_popup] - til indsttelse i WP
 function bellis_popup_box() {
+    $content  = '<div id="popup-overlay"></div>';    // Laver mørkt overlay bag popup-boksen
     $content  = '<div id="bellis-container">';
     $content .= '  <div class="bellis-box slide-top" id="bellis-box">';
     $content .= '      <div class="bellis-close-button" id="bellis-close">&#10006;</div>';

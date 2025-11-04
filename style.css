@@ -124,3 +124,23 @@
 .bellis-pulse:hover {
     animation-play-state: paused;
 }
+/* ----------------------------------------------------
+   MØRKT OVERLAY BAG POPUP
+---------------------------------------------------- */
+#popup-overlay {
+  position: fixed;                /* Dækker hele skærmen */
+  inset: 0;                       /* Top, bund, venstre, højre = 0 (fuld dækning) */
+  background: rgba(0, 0, 0, 0.45); /* Gennemsigtig sort baggrund */
+  backdrop-filter: blur(2px);     /* Lidt slør på baggrunden */
+  z-index: 9998;                  /* Ligger lige under popup-boksen */
+  opacity: 0;                     /* Starter usynlig */
+  transition: opacity 0.4s ease;  /* Glidende fade-effekt */
+  pointer-events: none;           /* Ikke klikbar, når skjult */
+}
+
+/* Når popup’en er aktiv → overlay vises */
+#popup-overlay.active {
+  opacity: 1;                     /* Gør overlay synligt */
+  pointer-events: all;            /* Gør det klikbart (så man fx kan lukke popup’en) */
+}
+
