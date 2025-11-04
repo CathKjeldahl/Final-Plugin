@@ -34,7 +34,7 @@
 
 /* Billede */
 .bellis-box img {
-    max-width: 60% !important;
+    max-width: 90% !important;
     height: auto;
     margin: 10px 0;
 }
@@ -89,45 +89,6 @@
     opacity: 1 !important;
 }
 
-
-/* --- Puls/zoom animation til PNG --- */
-
-.bellis-pulse {
-    display: inline-block;           /* Sørger for korrekt transform */
-    transform-origin: center center; /* Zoom fra midten */
-    will-change: transform;          /* Performance hint */
-    backface-visibility: hidden;
-    /* Animation: name duration timing-function delay iteration-direction fill-mode */
-    animation: bellis-pulse 4s ease-in-out infinite;
-}
-
-/* Nedsæt bevægelse for brugere der foretrækker reduceret bevægelse */
-@media (prefers-reduced-motion: reduce) {
-    .bellis-pulse {
-        animation: none;
-    }
-}
-
-/* Keyframes: fra 0% (normal) -> 50% (stor) -> 100% (normal) */
-@keyframes bellis-pulse {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    50% {
-        transform: scale(1.06); /* Ændr 1.06 for mere/færre zoom */
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
-/* Hvis du vil pause animation ved hover (valgfrit) */
-.bellis-pulse:hover {
-    animation-play-state: paused;
-}
 /* ----------------------------------------------------
    MØRKT OVERLAY BAG POPUP
 ---------------------------------------------------- */
