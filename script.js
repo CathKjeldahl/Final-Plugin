@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
         box.classList.remove('slide-top');
         box.classList.add('slide-down');
+      overlay.classList.add('active'); // Gør overlayet synligt
     }, 2000);
 
     // Luk boksen
@@ -21,13 +22,18 @@ document.addEventListener('DOMContentLoaded', function() {
     closeBtn.addEventListener('click', function() {
         box.classList.remove('slide-down');
         box.classList.add('slide-top');
+      overlay.classList.remove('active');
     });
 
     // Knapfunktion – sender brugeren videre til dit link
     var ctaBtn = document.getElementById('bellis-button');
     ctaBtn.addEventListener('click', function() {
-        window.location.href = 'https://storyscaping.shstudio.dk/elementor-615/home/';
+        window.location.href = '⁦https://storyscaping.shstudio.dk/elementor-615/home/⁩';
     });
 
-    
+  overlay.addEventListener('click', function() {
+        box.classList.remove('slide-down');
+        box.classList.add('slide-top');
+        overlay.classList.remove('active');
+        });
 });
