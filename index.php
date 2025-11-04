@@ -1,12 +1,12 @@
 <?php
 /*
- * Plugin Name: cathrine's plugin
- * Plugin URI: http://localhost
- * Description: Simpelt plugin med animeret illustration og CTA-knap.
- * Version: 1.2.1
- * Author: Cathrine Kjeldahl Jensen
- * Author URI: http://localhost
- * License: GPL2
+•  Plugin Name: Gruppe 1 fælles plugin
+•  Plugin URI: ⁦http://localhost⁩
+•  Description: Simpelt plugin med animeret illustration og CTA-knap.
+•  Version: 1.2.2
+•  Author: Cathrine Kjeldahl Jensen, Malene Jonassen, Freja Matthiesen og Sarah Heltborg
+•  Author URI: ⁦http://localhost⁩
+•  License: GPL2
  */
 
  if (!defined('ABSPATH')) {
