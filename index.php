@@ -1,11 +1,11 @@
 <?php
 /*
 •  Plugin Name: Gruppe 1 fælles plugin
-•  Plugin URI: ⁦http://localhost⁩
+•  Plugin URI: http://localhost
 •  Description: Simpelt plugin med animeret illustration og CTA-knap.
 •  Version: 1.2.2
 •  Author: Cathrine Kjeldahl Jensen, Malene Jonassen, Freja Matthiesen og Sarah Heltborg
-•  Author URI: ⁦http://localhost⁩
+•  Author URI: http://localhost
 •  License: GPL2
  */
 
@@ -35,7 +35,7 @@ function bellis_popup_box() {
     $content .= '      <img src="' . plugin_dir_url(__FILE__) . 'img/stjerner-og-dans.gif" alt="Bellis billede">';
     $content .= '      <p>Fællesskab starter med et hej og en kop kaffe. Hos Bellis mødes mennesker, idéer og grin i øjenhøjde. Klik dig ind, og mærk stemningen, hvor forbindelser opstår.</p>';
     $content .= '      <div class="button-holder">';
-    $content .= '          <a href="https://storyscaping.shstudio.dk/elementor-615/home/" target="_blank" class="bellis-button-link"> <button id="bellis-button">Oplev Fællesskabet</button> </a>';
+    $content .= '          <button id="bellis-button">Oplev Fællesskabet</button>';
     $content .= '      </div>';
     $content .= '  </div>';
     $content .= '</div>';
