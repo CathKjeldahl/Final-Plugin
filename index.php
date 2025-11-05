@@ -1,7 +1,7 @@
 <?php
 /*
 •  Plugin Name: Gruppe 1 fælles plugin
-•  Plugin URI: http://localhost
+•  Plugin URI: https://storyscaping.shstudio.dk/
 •  Description: Simpelt plugin med animeret illustration og CTA-knap.
 •  Version: 1.2.2
 •  Author: Cathrine Kjeldahl Jensen, Malene Jonassen, Freja Matthiesen og Sarah Heltborg
