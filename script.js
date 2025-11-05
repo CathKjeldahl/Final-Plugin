@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Knapfunktion – sender brugeren videre til dit link
     var ctaBtn = document.getElementById('bellis-button');
     ctaBtn.addEventListener('click', function() {
-        window.location.href = '⁦https://storyscaping.shstudio.dk/elementor-615/home/';
+        window.location.href = 'https://storyscaping.shstudio.dk/elementor-615/home/';
     });
 
   overlay.addEventListener('click', function() {
